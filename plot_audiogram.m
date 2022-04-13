@@ -8,7 +8,7 @@ function [data] = plot_audiogram(nplot,plotindv,errbartype)
 %   errbartype = no (0) nanstdev (1) or SEM (2) errorbars
 %       e.g. plot mean + SD subplots without individual data : plot_audiogram(2,0,1)
 %       e.g. plot mean + SEM subplots with individual data : plot_audiogram(2,1,2)
-
+%       https://github.com/bcm9
 %% Default if no arguments 
 if nargin<1
     nplot=2;
