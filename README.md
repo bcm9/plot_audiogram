@@ -2,7 +2,7 @@
 MATLAB function to plot audiometric thresholds from excel spreadsheet. Main code: plot_audiogram.m
 
 Arguments
-plot_audiogram(nplots,plotdinv,errtype)
+plot_audiogram(nplots,plotdinv,errbartype)
 
 nplots = single (1) or subplots (2)
 plotdinv = overlay individual data (1) or not (0)
